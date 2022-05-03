@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    max-width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.pricing{
+    background: #F5F5F5;
+    padding-bottom: 50px;
+}
+
+.title{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+    padding: 90px 0 0;
+}
+
+.line {
+    width: 170px;
+    height: 1px;
+    background: #EC7979;
+    margin: 0 auto;
+}
+
+.pricing_text{
+    margin: 40px 0 70px;
+}
+
+.pricing_text p{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+}
+
+.pricing-content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.pricing-cart{
+    width: 370px;
+}
+
+.pricing-cart-middle{
+    margin-top: -20px;
+}
+
+.pricing-cart-list__item{
+    padding: 10px 0 10px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #86878B;
+    background: #FFFFFF;
+    border: 2px solid #F5F5F5;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.pricing-cart-list__item--title{
+    padding: 10px 0 10px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    background: #333333;
+    border: 2px solid #F5F5F5;
+}
+
+.pricing-cart-list__item--value{
+    padding: 20px 0 20px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #333333;
+    border: 2px solid #F5F5F5;
+}
+
+.pricing-cart-list__item-description{
+    padding: 10px 0 10px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+    background: #333333;
+    border: 2px solid #F5F5F5;
+}
+
+
