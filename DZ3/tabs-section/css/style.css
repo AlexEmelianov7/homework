@@ -22,13 +22,14 @@ ul li{
 
 .nav-list__item--1{
     border: 1px solid #C6CBCD;
+    border-radius: 5px 5px 0 0;
     border-bottom: none;
     background-color: #ffffff;
 }
 
 .nav-list__item{
     display: inline-block;
-    padding: 0 50px;
+    padding: 10px 77px;
 }
 
 .nav-list__item a{
