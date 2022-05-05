@@ -1,0 +1,120 @@
+@import "fonts.css";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 0 15px;
+}
+
+.title{
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 90px 0 0;
+}
+
+.title:after{
+    display: block;
+    margin: 50px auto 0;
+    content: "";
+    width: 170px;
+    height: 1px;
+    background: #ec7979;
+}
+
+.customers-text{
+    margin: 40px 0 80px;
+}
+
+.customers-text p{
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #86878B;
+}
+
+.customers-content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.customers-content-cart{
+    width: 370px;
+    position: relative;
+}
+
+.customers-content-cart__txt{
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #86878B;
+    background: #E2E2E2;
+    border-radius: 10px;
+    padding: 37px 10px;
+
+}
+
+.customers-content-cart__trngl{
+    width: 0;
+    height: 0;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    border-top: 30px solid #E2E2E2;
+    position: relative;
+    left: 55px;
+
+}
+
+.customers-content-cart__name{
+    padding: 60px 0 30px 100px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    text-transform: capitalize;
+    color: #000000;
+}
+
+.customers-content-cart__post{
+    padding: 0 0 65px 100px;
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.customers-content-cart__img{
+    background: url("../assets/img/icons8-beast-70.png") no-repeat center;
+    background-size: contain;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 95px;
+}
+
+.customers-content-cart__img--middle{
+    background: url("../assets/img/icons8-captain-america-70.png");
+}
+
+.customers-content-cart__img--right{
+    background: url("../assets/img/icons8-gambit-70.png");
+}
