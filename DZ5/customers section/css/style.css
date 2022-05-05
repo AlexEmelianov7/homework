@@ -70,19 +70,26 @@
 
 }
 
-.customers-content-cart__trngl{
+.customers-content-cart__txt:after{
+    display: block;
+    content: "";
     width: 0;
     height: 0;
     border-left: 25px solid transparent;
     border-right: 25px solid transparent;
     border-top: 30px solid #E2E2E2;
     position: relative;
-    left: 55px;
+    left: 50px;
+    top: 65px;
 
 }
 
-.customers-content-cart__name{
-    padding: 60px 0 30px 100px;
+.customers-content-cart__elements--descr{
+    padding: 90px 0 65px;
+    margin-left: 100px ;
+}
+
+.customers-content-cart__elements--descr__name{
     font-family: 'Open Sans', sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -92,16 +99,17 @@
     color: #000000;
 }
 
-.customers-content-cart__post{
-    padding: 0 0 65px 100px;
+.customers-content-cart__elements--descr__post{
     font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 21px;
+    color: #000000;
+    padding: 30px 0 0;
 }
 
-.customers-content-cart__img{
+.customers-content-cart__elements--img{
     background: url("../assets/img/icons8-beast-70.png") no-repeat center;
     background-size: contain;
     width: 70px;
@@ -111,10 +119,10 @@
     bottom: 95px;
 }
 
-.customers-content-cart__img--middle{
+.customers-content-cart__elements--img__middle{
     background: url("../assets/img/icons8-captain-america-70.png");
 }
 
-.customers-content-cart__img--right{
+.customers-content-cart__elements--img__right{
     background: url("../assets/img/icons8-gambit-70.png");
 }
