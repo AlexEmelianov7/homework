@@ -79,10 +79,18 @@
     text-transform: capitalize;
     padding: 15px 65px;
     margin: 0 auto;
+    transition: 0.3s;
 
 }
 
 .design-btn{
     position: relative;
     padding: 0 0 50px;
+}
+
+.design-btn a:hover{
+    transform: scale(1.1);
+    background: rgba(236, 121, 121, 1);
+    border: none;
+    color: #000000;
 }

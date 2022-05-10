@@ -55,6 +55,11 @@ a{
     line-height: 19px;
     color: #FFFFFF;
     text-transform: capitalize;
+    transition: 0.3s;
+}
+
+.nav-list__item a:hover{
+    transform: scale(1.1);
 }
 
 
@@ -89,10 +94,6 @@ a{
 .banner-content{
     width: 670px;
     padding-bottom: 185px;
-}
-
-.banner-logo{
-    /*padding: 230px 0 0*/;
 }
 
 .banner-title{
@@ -142,8 +143,14 @@ a{
     text-align: center;
     text-transform: capitalize;
     padding: 15px 65px;
-
+    transition: 0.3s;
 }
+.banner_btn:hover{
+    transform: translate(30%,0);
+    background: #EC7979;
+    border: none;
+}
+
 
 .banner-form{
     width: 470px;
