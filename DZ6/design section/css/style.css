@@ -16,6 +16,7 @@
     background: url("../assets/img/image.jpg") no-repeat center;
     background-size: cover;
     position: relative;
+    padding: 0 0 50px;
 }
 
 .design:before{
@@ -85,7 +86,6 @@
 
 .design-btn{
     position: relative;
-    padding: 0 0 50px;
 }
 
 .design-btn a:hover{
