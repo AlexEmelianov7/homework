@@ -1,0 +1,180 @@
+@import "fonts.css";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    max-width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.artbox{
+    margin: 100px 0;
+}
+
+.artbox-container{
+    background: #FBF7F6;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    border-radius: 15px;
+}
+
+.artbox-header{
+    display: flex;
+    justify-content: space-around;
+    background: #F9F0EE;
+    border-radius: 15px 15px 0 0;
+}
+
+.artbox-header__item{
+    font-family: 'Montserrat',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    color: #371030;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 15px 0;
+    width: 445px;
+}
+.artbox-header__item.border{
+    border-right: 1px solid #C4C4C4;
+    border-radius: 15px 0 0 0;
+}
+
+.artbox-header__item.active{
+    font-weight: 900;
+    color: #9A3C48;
+    background: #FFB0BA;
+    border-radius: 0 15px 0 0;
+}
+
+.artbox-description{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    color: #371030;
+    padding: 35px 0 0 50px;
+}
+
+.artbox-form{
+    padding: 25px 50px 50px;
+}
+
+.artbox-form__review textarea,
+.artbox-form__input input{
+    border: none;
+    outline: none;
+    background: #F9F0EE;
+    width: 100%;
+}
+
+.artbox-form__review textarea{
+    padding: 7px 0 0 25px;
+}
+
+
+.artbox-form__review{
+    padding: 0 0 30px;
+}
+
+
+.artbox-form__input{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.artbox-form__input--info{
+    background: #F9F0EE;
+    padding: 7px 25px;
+    width: 30%;
+}
+
+::placeholder{
+    font-family: 'Montserrat',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    color: #000000;
+    opacity: 0.5;
+}
+
+.artbox-form__dispatch{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 30px;
+}
+
+.artbox-form__dispatch--btn{
+    font-family: 'Montserrat',sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #9A3C48;
+    border: none;
+    background: #FFB0BA;
+    box-shadow: 3px 3px 0 3px #DE8E98;
+    border-radius: 100px;
+    cursor: pointer;
+    padding: 19px 61px 20px 62px;
+}
+
+.artbox-form__dispatch--check{
+    display: flex;
+    align-items: center;
+}
+
+.artbox-form__dispatch label{
+    font-family: 'Montserrat',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    color: rgba(0,0,0,0.5);
+    margin-left: 30px;
+}
+
+
+.custom-checkbox{
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+}
+
+.custom-checkbox+label{
+    display: inline-flex;
+    align-items: center;
+}
+
+.custom-checkbox+label::before {
+    content: '';
+    display: inline-block;
+    width: 26px;
+    height: 23px;
+    border-radius: 5px;
+    margin-right: 15px;
+    background: #F9F0EE;
+}
+
+.custom-checkbox:checked+label::before{
+    background: #F9F0EE url("../assets/img/.svg") no-repeat center center;
+    background-size: 50% 50%;
+}

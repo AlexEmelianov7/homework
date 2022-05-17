@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>art box form</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <section class="artbox">
+        <div class="wrapper">
+            <div class="artbox-container">
+                <div class="artbox-header">
+                    <button class="artbox-header__item border">описание</button>
+                    <button class="artbox-header__item">детали</button>
+                    <button class="artbox-header__item active">отзывы</button>
+                </div>
+                <p class="artbox-description">Оставьте свой отзыв на “Ароматическое саше”</p>
+                <form action="#" class="artbox-form">
+                    <div class="artbox-form__review">
+                        <textarea name="textarea" id="" cols="30" rows="10" placeholder="Ваш отзыв*"></textarea>
+                    </div>
+                    <div class="artbox-form__input">
+                        <div class="artbox-form__input--info">
+                            <input class="input-name" type="text" placeholder="Имя*">
+                        </div>
+                        <div class="artbox-form__input--info">
+                            <input class="input-tel" type="tel" placeholder="Телефон*">
+                        </div>
+                        <div class="artbox-form__input--info">
+                            <input class="input-email" type="email" placeholder="Email">
+                        </div>
+                    </div>
+                    <div class="artbox-form__dispatch">
+                        <button class="artbox-form__dispatch--btn" type="submit">Отправить</button>
+                        <div class="artbox-form__dispatch--check">
+                            <input class="custom-checkbox" type="checkbox" id="checkbox" checked>
+                            <label for="checkbox">Сохранить моё имя, email и адрес сайта в этом браузере для последующих моих комментариев.</label>
+                        </div>
+                    </div>
+
+
+                </form>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
